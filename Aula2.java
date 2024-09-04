@@ -5,6 +5,7 @@ public class Aula2{
         Scanner leitorTxt = new Scanner(System.in);
         System.out.println("Digite seu nome:\n");
         String nome = leitorTxt.nextLine();
+        
         System.out.println(nome);
         leitorTxt.close();
     }
